@@ -1,0 +1,34 @@
+/*
+/*Estilos reutilizables*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+@font-face {/* Contiene los iconos, se llaman con su unicode respectivo */
+font-family:FontAwesome;
+src: url(../fonts/FontAwesome.otf);
+}
+
+body{
+	font-family: 'Montserrat', sans-serif, helvetica;
+	font-size: 16px;
+}
+
+.img-responsive{
+	max-width: 100%;
+	width: 100%;
+}
