@@ -1,6 +1,9 @@
 /*
 /*Estilos reutilizables*/
-
+*{
+	margin: 0;
+	padding: 0;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -26,9 +29,19 @@ src: url(../fonts/FontAwesome.otf);
 body{
 	font-family: 'Montserrat', sans-serif, helvetica;
 	font-size: 16px;
+	text-align: r
+}
+
+.flex-container{ 
+	display: flex;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
 }
 
 .img-responsive{
 	max-width: 100%;
 	width: 100%;
 }
+

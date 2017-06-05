@@ -8,21 +8,24 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 </head>
-<body>
-	<header>
-		<img src="assets/img/logo-white.png">
-		<nav>
+<body>		
+		<nav class="menu flex-container">
+		<div class="logo-nav">
+			<img src="assets/img/logo-white.png" class="logo" alt="logo">
+		</div>
 			<ul>
 				<li><a href="#">Drive</a></li>
 				<li><a href="#">Explore</a></li>
 				<li><a href="#">Help</a></li>
 				<li><a href="#">Log in</a></li>
-				<li><a href="#">Sign up</a></li>
 			</ul>
 		</nav>
-	</header>
 
-	<section id="home">
+	<header id="home" class="flex-container">
+	<video class="video-full" autoplay preload="auto" type="video/mp4">
+		<source src="assets/img/hero-video.mp4"/>
+		Tu navegador no soporta HTML5 Video
+		</video>
 		<div id="formulario">
 			<h2>Turn miles into money</h2>
 			<p>Sign up to drive with lyft.</p>
@@ -41,7 +44,7 @@
 			<p>Already applied? Check the status of your application here.</p>
 			<p>ZEarn money for inviting friends to drive. Learn more</p>
 		</div>
-	</section>
+	</header>
 
 	<section id="info">
 		<h3>A ride in minutes</h3>
@@ -49,7 +52,7 @@
 		<h3>Serious about safety</h3>
 		<p>From knowing the color of your driver’s car to our 24/7 Trust & Safety Team, we got you.</p>
 		<h3>Happy drivers.</h3>
-		<h3>Heppu riders.</h3>
+		<h3>Heppy riders.</h3>
 		<p>Ride with us and you’ll see why 9 out of 10 rides end with five stars.</p>
 	</section>
 
@@ -70,7 +73,7 @@
 			<p>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
 		</div>
 	</section>
-	<footer>
+	<section id="info-2">
 		<div class="enlace">
 			<h5>Log in</h5>
 			<a href="#">Help</a>
@@ -91,6 +94,19 @@
 			<a href="#">Blog</a>
 			<a href="#">Press</a>
 			<a href="#">Careers</a>
+		</div>
+		<div class="enlace">
+			<img src="assets/img/apple-store.svg" alt="logo-apple">
+			<img src="assets/img/google-play.png" alt="logo-google">
+			<img src="assets/img/microsoft.png" alt="logo-microsoft">
+		</div>
+	</section>
+	<footer>
+		<div class="iconos">
+		<i class="fa fa-facebook" aria-hidden="true"></i>
+		<i class="fa fa-instagram" aria-hidden="true"></i>
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+			<p>&copy; 2017 Lyft, Inc.TermsPrivacy</p>
 		</div>
 	</footer>	
 
