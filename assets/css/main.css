@@ -53,9 +53,9 @@ video{
 }
 
 #formulario{
-	width: 39%;
-	height: 300px;
-	background-color: whitesmoke;
+	width: 50%;
+	height: 60%;
+	background-color: white;
 	justify-content: flex-end;
 	margin-left: -500px;
 	margin-top: 110px;
@@ -68,18 +68,35 @@ video{
 	color:#352384;
 	font-size: 2em;
 	line-height: 1em;
+	font-weight: 400;
 }
 
 #formulario h5{
 	color: #352384;
 	font-size:0.7em;
 	margin: 10px 0;
+	font-weight: 400;
 }
 
 #formulario input{
 	display: block;
+	color: none;
+	border:none;
+	width: 100%;
+	height: 50px;
+	border-bottom:solid thin #352384;
+	padding-top: 25px;
 }
 
+input:focus, textarea:focus, button:focus{ 
+outline: none;
+}
+
+input::placeholder{
+  color: silver;
+  font-size: 1.2em;
+  font-weight: 100;
+}
 
 
 
